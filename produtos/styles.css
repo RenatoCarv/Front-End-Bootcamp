@@ -1,16 +1,17 @@
 body {
+    background-color: rgb(230, 230, 230);
     padding: 0;
     margin: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
 
     display: flex;
     justify-content: center;
 }
 
 .conteudo {
-    max-width: 1000px;
-    min-width: 1000px;
+    max-width: 900px;
+    min-width: 900px;
     overflow: hidden;
 }
 
@@ -27,6 +28,7 @@ body {
 .cabecalho h1 {
     margin: 0;
     color: black;
+    font-family: 'Dancing Script';
 }
 
 .cabecalho a {
@@ -74,7 +76,7 @@ body {
     border-radius: 4px;
     font-weight: 700;
     cursor: pointer;
-    
+
     max-width: 200px;
     min-width: 200px;
 }
@@ -83,4 +85,3 @@ body {
     background-color: rgba(0, 0, 0, .3);
     transition: background-color .3s;
 }
-
