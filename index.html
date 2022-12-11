@@ -1,7 +1,3 @@
-<!-- Aluno: Renato Sá Leitão de Carvalho filho-->
-<!-- Matrícula: 01509462-->
-<!-- Professora: Monique Conceição-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,13 +8,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
 
-    <title>Imperium Sports</title>
+<title>Imperium Sports</title>
 
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,101 +38,178 @@
             <section class="categoria">
                 <span class="titulo" id="camisas"> Camisas </span>
 
-                <div class="produtos">
-                    <a href="produtos/camisa.html" class="produto">
-                        <img src="assets/Camisabrasil.png" alt="Camisa do brasil da copa do mundo 2022">
-                        <span> Camisa do Brasil </span>
-                        <span> R$ 389,00 </span>
-                    </a>
-                    <a href="produtos/camisa.html" class="produto">
-                        <img src="assets/Camisabrasil.png" alt="Camisa do brasil da copa do mundo 2022">
-                        <span> Camisa do Brasil </span>
-                        <span> R$ 389,00 </span>
-                    </a>
-                    <a href="produtos/camisa.html" class="produto">
-                        <img src="assets/Camisabrasil.png" alt="Camisa do brasil da copa do mundo 2022">
-                        <span> Camisa do Brasil </span>
-                        <span> R$ 389,00 </span>
-                    </a>
-                    <a href="produtos/camisa.html" class="produto">
-                        <img src="assets/Camisabrasil.png" alt="Camisa do brasil da copa do mundo 2022">
-                        <span> Camisa do Brasil </span>
-                        <span> R$ 389,00 </span>
-                    </a>
+                <div id="carousel-camisas" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <a href="produtos/camisa.html" class="carousel-item active" data-bs-interval="10000">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/Camisabrasil.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </a>
+                        <a href="produtos/camisaprin.html" class="carousel-item" data-bs-interval="2000">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/CamisaAmarela.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </a>
+                        <a href="produtos/camisatreino.html" class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/CamisaTreino.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-camisas"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-camisas"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
+
             </section>
 
             <section class="categoria">
                 <span class="titulo" id="chuteiras"> Chuteiras </span>
 
-                <div class="produtos">
-                    <a href="produtos/chuteira.html" class="produto">
-                        <img src="assets/ChuteiraAzul.png" alt="Chuteira Nike Mercurial">
-                        <span> Chuteira Nike Mercurial </span>
-                        <span> R$ 429,00 </span>
-                    </a>
-                    <a href="produtos/chuteira.html" class="produto">
-                        <img src="assets/ChuteiraAzul.png" alt="Chuteira Nike Mercurial">
-                        <span> Chuteira Nike Mercurial </span>
-                        <span> R$ 429,00 </span>
-                    </a>
-                    <a href="produtos/chuteira.html" class="produto">
-                        <img src="assets/ChuteiraAzul.png" alt="Chuteira Nike Mercurial">
-                        <span> Chuteira Nike Mercurial </span>
-                        <span> R$ 429,00 </span>
-                    </a>
-                    <a href="produtos/chuteira.html" class="produto">
-                        <img src="assets/ChuteiraAzul.png" alt="Chuteira Nike Mercurial">
-                        <span> Chuteira Nike Mercurial </span>
-                        <span> R$ 429,00 </span>
-                    </a>
+                <div id="carousel-produtos" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <a href="produtos/chuteira.html" class="carousel-item active" data-bs-interval="10000">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/ChuteiraAzul.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </a>
+                        <a href="produtos/chuteiraA.html" class="carousel-item" data-bs-interval="2000">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/ChuteiraAmarela.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </a>
+                        <a href="produtos/chuteiraC.html" class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/ChuteiraColorida.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-produtos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-produtos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </section>
 
             <section class="categoria">
                 <span class="titulo" id="bolas"> Bolas </span>
 
-                <div class="produtos">
-                    <a href="produtos/bola.html" class="produto">
-                        <img src="assets/BolaCopa.png" alt="Bola da copa do Mundo 2022">
-                        <span> Bola Al Rihla - Copa 2022 </span>
-                        <span> R$ 350,00 </span>
-                    </a>
-                    <a href="produtos/bola.html" class="produto">
-                        <img src="assets/BolaCopa.png" alt="Bola da copa do Mundo 2022">
-                        <span> Bola Al Rihla - Copa 2022 </span>
-                        <span> R$ 350,00 </span>
-                    </a>
-                    <a href="produtos/bola.html" class="produto">
+                <div id="carousel-bolas" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <a href="produtos/bola.html" class="carousel-item active" data-bs-interval="10000">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/BolaCopa.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
 
-                        <img src="assets/BolaCopa.png" alt="Bola da copa do Mundo 2022">
-                        <span> Bola Al Rihla - Copa 2022 </span>
-                        <span> R$ 350,00 </span>
-                    </a>
-                    <a href="produtos/bola.html" class="produto">
-                        <img src="assets/BolaCopa.png" alt="Bola da copa do Mundo 2022">
-                        <span> Bola Al Rihla - Copa 2022 </span>
-                        <span> R$ 350,00 </span>
-                    </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                            </div>
+                        </a>
+                        <a href="produtos/jabulani.html" class="carousel-item" data-bs-interval="2000">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/Jabulani.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
 
-                    <a href="produtos/bola.html" class="produto">
-                        <img src="assets/BolaCopa.png" alt="Bola da copa do Mundo 2022">
-                        <span> Bola Al Rihla - Copa 2022 </span>
-                        <span> R$ 350,00 </span>
-                    </a>
+                            <div class="carousel-caption d-none d-md-block">
+                               
+                            </div>
+                        </a>
+                        <a href="produtos/champions.html" class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="centro">
+                                    <img src="assets/Champions.png" alt="Camisa do Brasil">
+                                </div>
+                            </div>
 
-                    <a href="produtos/bola.html" class="produto">
-                        <img src="assets/BolaCopa.png" alt="Bola da copa do Mundo 2022">
-                        <span> Bola Al Rihla - Copa 2022 </span>
-                        <span> R$ 350,00 </span>
-                    </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-bolas"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-bolas"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
             </section>
 
         </main>
 
     </div>
 
+    <p> CRIADORES DO SITE: 
+        Renato Carvalho - 01509462 / 
+        Williene Rodrigues - 01513577 / 
+        Maria Clara - 01565971 /
+        Luan Rodrigues - 01516921.
+    </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    
 </body>
 
 </html>
