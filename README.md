@@ -1,1 +1,1 @@
-# Site feito para vendas, Atividade de aula da faculdade.
+# Site feito para vendas, Atividade bootcamp.
