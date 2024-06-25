@@ -23,5 +23,22 @@ Clone o repositório para o seu computador:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
+Navegue até o diretório do projeto:
+```bash
 cd seu-repositorio
+```
+Abra o arquivo index.html no seu navegador preferido.
+
+## Funcionalidades
+
+### Tela Inicial
+
+- Barra de rolagem horizontal para navegação entre os itens.
+- Itens clicáveis que redirecionam para suas respectivas páginas secundárias.
+  
+### Páginas Secundárias
+
+- Informações detalhadas sobre o item selecionado, incluindo preço e descrição.
+- Estilização consistente com a tela inicial.
