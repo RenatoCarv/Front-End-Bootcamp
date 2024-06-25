@@ -8,9 +8,13 @@ Este projeto consiste em uma interface web para uma loja de esportes que oferece
 A estrutura do projeto é a seguinte:
 
 ├── assets
+
 ├── produtos
+
 ├── README.md
+
 ├── index.html
+
 └── styles.css
 
 ## Como Executar
